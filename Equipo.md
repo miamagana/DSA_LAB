@@ -1,2 +1,3 @@
-Miguel Ángel Magaña
-Clara Argente Garrigós
+- Miguel Ángel Magaña
+- Clara Argente Garrigós
+- Yamileidi Gonzalez Hernandez
