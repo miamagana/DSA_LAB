@@ -7,6 +7,7 @@ services:
       - "9997:9997"
   queue:
     build: ./queue
+    scale: 3
     ports:
       - "9996"
       - "9997"
@@ -23,6 +24,7 @@ services:
       - queue
   worker:
     build: ./worker
+    scale: 3
     ports:
       - "9999"
     depends_on:
